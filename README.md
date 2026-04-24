@@ -2,13 +2,13 @@
 
 
 
-\## 1. Approach
+## 1. Approach
 
 I used a modular approach by creating separate Python scripts for each stage of the data pipeline: cleaning, feature engineering, and feature selection. This ensures the code is organized and reusable.
 
 
 
-\## 2. Data Cleaning Decisions
+## 2. Data Cleaning Decisions
 
 \- \*\*Missing Values\*\*: I filled missing 'Age' values with the median. For 'Embarked', I used the most common value (mode). For 'Cabin', I filled missing values with 'U' for Unknown.
 
@@ -18,7 +18,7 @@ I used a modular approach by creating separate Python scripts for each stage of 
 
 
 
-\## 3. Features Engineered
+## 3. Features Engineered
 
 \- \*\*FamilySize\*\*: Combined siblings and parents into one total count.
 
@@ -32,7 +32,7 @@ I used a modular approach by creating separate Python scripts for each stage of 
 
 
 
-\## 4. Key Findings
+## 4. Key Findings
 
 Based on the Feature Selection script, the top factors predicting survival were:
 
