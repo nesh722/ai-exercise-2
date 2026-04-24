@@ -10,9 +10,9 @@ I used a modular approach by creating separate Python scripts for each stage of 
 
 ## 2. Data Cleaning Decisions
 
-\- \*\*Missing Values\*\*: I filled missing 'Age' values with the median. For 'Embarked', I used the most common value (mode). For 'Cabin', I filled missing values with 'U' for Unknown.
+\- \*\*Handling Missing Values\*\*: I filled missing 'Age' values with the median. For 'Embarked', I used the most common value (mode). For 'Cabin', I filled missing values with 'U' for Unknown.
 
-\- \*\*Outliers\*\*: I capped the 'Fare' at the 99th percentile to prevent extreme outliers from affecting the model.
+\- \*\*Managing Outliers\*\*: I capped the 'Fare' at the 99th percentile to prevent extreme outliers from affecting the model.
 
 \- \*\*Consistency\*\*: I converted 'Sex' to lowercase and removed any duplicate rows.
 
